@@ -196,3 +196,13 @@ Hackthon/
         ├── content-generator/
         ├── summary-insights/
         └── settings-usage/
+
+
+## Screenshots
+
+## Member1
+<img width="1485" height="702" alt="Screenshot 2026-10-04 224723" src="https://github.com/user-attachments/assets/e7b60237-f22f-49b8-932d-2e2a25200013" />
+
+<img width="1271" height="757" alt="Screenshot 2026-10-04 224737" src="https://github.com/user-attachments/assets/20b820af-cecf-4f56-b1af-b7444376bdf3" />
+
+<img width="1027" height="740" alt="Screenshot 2026-10-04 224752" src="https://github.com/user-attachments/assets/e6ead09b-33d0-445d-ae1a-162eaec8ce3b" />
