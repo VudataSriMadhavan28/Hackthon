@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI Content Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <a href="../../index.html" class="logo">
+        ✦ AI Interfaces
+    </a>
+
+    <a href="../../index.html" class="back-btn">
+        ← Back to Home
+    </a>
+
+</header>
+
+
+<main>
+
+<section class="generator">
+
+    <div class="page-heading">
+
+        <span class="badge">
+            ✦ AI CONTENT GENERATOR
+        </span>
+
+        <h1>
+            Create content with
+            <span>AI</span>
+        </h1>
+
+        <p>
+            Generate high-quality content from a simple prompt.
+        </p>
+
+    </div>
+
+
+    <div class="generator-layout">
+
+        <!-- INPUT -->
+
+        <section class="panel input-panel">
+
+            <div class="panel-title">
+                <h2>Content Brief</h2>
+                <span>AI Writer</span>
+            </div>
+
+
+            <label>
+                What do you want to create?
+            </label>
+
+            <textarea
+                id="prompt"
+                placeholder="Example: Write a professional LinkedIn post about artificial intelligence..."
+            ></textarea>
+
+
+            <div class="options">
+
+                <div>
+                    <label>Content Type</label>
+
+                    <select id="contentType">
+
+                        <option>Blog Post</option>
+                        <option>Social Media Post</option>
+                        <option>Marketing Copy</option>
+                        <option>Email</option>
+                        <option>Product Description</option>
+
+                    </select>
+                </div>
+
+
+                <div>
+                    <label>Tone</label>
+
+                    <select id="tone">
+
+                        <option>Professional</option>
+                        <option>Friendly</option>
+                        <option>Creative</option>
+                        <option>Casual</option>
+                        <option>Persuasive</option>
+
+                    </select>
+                </div>
+
+            </div>
+
+
+            <button id="generateBtn" class="generate-btn">
+                ✨ Generate Content
+            </button>
+
+        </section>
+
+
+        <!-- OUTPUT -->
+
+        <section class="panel output-panel">
+
+            <div class="panel-title">
+
+                <h2>
+                    Generated Content
+                </h2>
+
+                <button id="copyBtn">
+                    Copy
+                </button>
+
+            </div>
+
+
+            <div id="output" class="output">
+
+                <div class="empty-state">
+
+                    <div class="empty-icon">
+                        ✦
+                    </div>
+
+                    <h3>
+                        Your content will appear here
+                    </h3>
+
+                    <p>
+                        Enter a prompt and click Generate Content.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
