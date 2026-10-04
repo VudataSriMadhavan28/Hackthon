@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Your Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+
+    <header class="navbar">
+
+        <a href="../../index.html" class="logo">
+            <span>✦</span>
+            AI Nexus
+        </a>
+
+        <nav>
+            <a href="../../index.html">Home</a>
+            <a href="../ai-recommendation/index.html">Recommendation</a>
+            <a href="../ask-your-data/index.html" class="active">Ask Your Data</a>
+            <a href="../text-to-chart/index.html">Text-to-Chart</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+
+            <div class="badge">DATABASE INTELLIGENCE</div>
+
+            <h1>
+                Ask your data.
+                <span>Get answers.</span>
+            </h1>
+
+            <p>
+                Ask questions in natural language and let AI
+                understand your data for you.
+            </p>
+
+            <div class="data-card">
+
+                <div class="database-header">
+
+                    <div class="database-info">
+                        <div class="database-icon">▦</div>
+
+                        <div>
+                            <h3>Sales Analytics</h3>
+                            <p>Connected database · 24,820 records</p>
+                        </div>
+                    </div>
+
+                    <div class="connected">
+                        <span></span>
+                        Connected
+                    </div>
+
+                </div>
+
+                <div class="question-box">
+
+                    <div class="question-icon">✦</div>
+
+                    <input
+                        id="questionInput"
+                        type="text"
+                        placeholder="Ask anything about your data..."
+                    >
+
+                    <button id="askButton">
+                        Ask AI
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+                <div class="example-questions">
+
+                    <span>Try asking:</span>
+
+                    <button class="example">
+                        What was our best month?
+                    </button>
+
+                    <button class="example">
+                        Show top products
+                    </button>
+
+                    <button class="example">
+                        Compare this year vs last year
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="answer-section">
+
+            <div class="answer-header">
+                <div>
+                    <span class="label">AI ANALYSIS</span>
+                    <h2>Data Answer</h2>
+                </div>
+
+                <div class="processing">
+                    <span></span>
+                    AI Analysis Ready
+                </div>
+            </div>
+
+            <div class="answer-card">
+
+                <div class="ai-avatar">✦</div>
+
+                <div class="answer-content">
+
+                    <p class="answer-intro">
+                        Based on your connected sales data:
+                    </p>
+
+                    <h3 id="answerTitle">
+                        Your best-performing month was December
+                    </h3>
+
+                    <p id="answerText">
+                        December generated approximately
+                        <strong>$184,600</strong> in revenue,
+                        representing a 24.8% increase compared
+                        with the previous month.
+                    </p>
+
+                    <div class="metrics">
+
+                        <div class="metric">
+                            <span>Revenue</span>
+                            <strong>$184.6K</strong>
+                        </div>
+
+                        <div class="metric">
+                            <span>Growth</span>
+                            <strong>+24.8%</strong>
+                        </div>
+
+                        <div class="metric">
+                            <span>Orders</span>
+                            <strong>3,842</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
