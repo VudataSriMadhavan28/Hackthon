@@ -214,3 +214,12 @@ Hackthon/
 
 <img width="1404" height="833" alt="Screenshot 2026-10-04 at 22 54 26" src="https://github.com/user-attachments/assets/2ea5eace-76f6-4e6a-a5f3-391765c139eb" />
 
+
+## Member3
+<img width="1458" height="815" alt="Screenshot 2026-10-04 at 11 07 55 PM" src="https://github.com/user-attachments/assets/777485fc-ee96-4127-babd-e704bb32107e" />
+
+<img width="1451" height="823" alt="Screenshot 2026-10-04 at 11 08 35 PM" src="https://github.com/user-attachments/assets/90bae37c-e130-4aaa-9061-867019032983" />
+
+<img width="1434" height="823" alt="Screenshot 2026-10-04 at 11 08 53 PM" src="https://github.com/user-attachments/assets/fb96cf05-3a69-441d-ae6e-05ec51f88cd9" />
+
+
