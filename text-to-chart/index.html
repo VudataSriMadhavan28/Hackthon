@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Chart AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+
+        <a href="../../index.html" class="logo">
+            <span>✦</span>
+            AI Nexus
+        </a>
+
+        <nav>
+            <a href="../../index.html">Home</a>
+            <a href="../ai-recommendation/index.html">Recommendation</a>
+            <a href="../ask-your-data/index.html">Ask Your Data</a>
+            <a href="../text-to-chart/index.html" class="active">Text-to-Chart</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+
+            <div class="badge">
+                ✦ NATURAL LANGUAGE VISUALIZATION
+            </div>
+
+            <h1>
+                Describe it.
+                <span>Visualize it.</span>
+            </h1>
+
+            <p>
+                Turn simple text descriptions into beautiful,
+                meaningful data visualizations using AI.
+            </p>
+
+            <div class="generator">
+
+                <div class="prompt-header">
+                    <div class="prompt-title">
+                        <span class="spark">✦</span>
+
+                        <div>
+                            <strong>Describe your chart</strong>
+                            <small>AI will generate the visualization</small>
+                        </div>
+                    </div>
+
+                    <span class="ai-tag">AI READY</span>
+                </div>
+
+                <textarea
+                    id="chartPrompt"
+                    placeholder="Example: Show monthly revenue from January to June as a bar chart..."
+                ></textarea>
+
+                <div class="generator-footer">
+
+                    <div class="chart-types">
+                        <button class="type active" data-type="bar">
+                            ▥ Bar
+                        </button>
+
+                        <button class="type" data-type="line">
+                            ╱ Line
+                        </button>
+
+                        <button class="type" data-type="pie">
+                            ◉ Pie
+                        </button>
+                    </div>
+
+                    <button id="generateChart">
+                        Generate Chart
+                        <span>✦</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="chart-section">
+
+            <div class="chart-header">
+
+                <div>
+                    <span class="label">GENERATED VISUALIZATION</span>
+                    <h2>Monthly Revenue</h2>
+                </div>
+
+                <div class="chart-actions">
+                    <button id="regenerate">↻ Regenerate</button>
+                    <button id="download">↓ Export</button>
+                </div>
+
+            </div>
+
+            <div class="chart-card">
+
+                <div class="chart-top">
+
+                    <div>
+                        <h3>Revenue Performance</h3>
+                        <p>January — June 2026</p>
+                    </div>
+
+                    <div class="total">
+                        <span>Total Revenue</span>
+                        <strong>$684K</strong>
+                    </div>
+
+                </div>
+
+                <div class="chart">
+
+                    <div class="y-axis">
+                        <span>$150K</span>
+                        <span>$100K</span>
+                        <span>$50K</span>
+                        <span>$0</span>
+                    </div>
+
+                    <div class="chart-area">
+
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div>
+
+                        <div class="bars">
+
+                            <div class="bar-item">
+                                <div class="bar" style="height: 42%"></div>
+                                <span>Jan</span>
+                            </div>
+
+                            <div class="bar-item">
+                                <div class="bar" style="height: 58%"></div>
+                                <span>Feb</span>
+                            </div>
+
+                            <div class="bar-item">
+                                <div class="bar" style="height: 49%"></div>
+                                <span>Mar</span>
+                            </div>
+
+                            <div class="bar-item">
+                                <div class="bar" style="height: 72%"></div>
+                                <span>Apr</span>
+                            </div>
+
+                            <div class="bar-item">
+                                <div class="bar" style="height: 65%"></div>
+                                <span>May</span>
+                            </div>
+
+                            <div class="bar-item">
+                                <div class="bar highlight" style="height: 88%"></div>
+                                <span>Jun</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="insight">
+
+                    <div class="insight-icon">✦</div>
+
+                    <div>
+                        <strong>AI Insight</strong>
+                        <p>
+                            Revenue increased by approximately
+                            18% from May to June, making June the
+                            strongest month in this period.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

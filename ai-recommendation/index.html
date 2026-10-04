@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <header class="navbar">
+        <a href="../../index.html" class="logo">
+            <span class="logo-icon">✦</span>
+            AI Nexus
+        </a>
+
+        <nav>
+            <a href="../../index.html">Home</a>
+            <a href="../ai-recommendation/index.html" class="active">Recommendation</a>
+            <a href="../ask-your-data/index.html">Ask Your Data</a>
+            <a href="../text-to-chart/index.html">Text-to-Chart</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="badge">
+                <span>✦</span> AI POWERED RECOMMENDATIONS
+            </div>
+
+            <h1>
+                Discover what
+                <span>AI recommends.</span>
+            </h1>
+
+            <p>
+                Tell our AI what you're looking for and receive
+                personalized recommendations instantly.
+            </p>
+
+            <div class="recommend-box">
+                <div class="input-area">
+                    <span class="search-icon">⌕</span>
+                    <input
+                        type="text"
+                        id="recommendInput"
+                        placeholder="What are you looking for?"
+                    >
+                </div>
+
+                <button id="recommendBtn">
+                    Get Recommendations
+                    <span>→</span>
+                </button>
+            </div>
+
+            <div class="suggestions">
+                <button class="suggestion">Best productivity tools</button>
+                <button class="suggestion">Study resources</button>
+                <button class="suggestion">Design inspiration</button>
+                <button class="suggestion">Developer tools</button>
+            </div>
+        </section>
+
+        <section class="results-section">
+
+            <div class="section-heading">
+                <div>
+                    <p class="small-label">PERSONALIZED FOR YOU</p>
+                    <h2>AI Recommendations</h2>
+                </div>
+
+                <div class="ai-status">
+                    <span></span>
+                    AI Ready
+                </div>
+            </div>
+
+            <div id="recommendations" class="recommendations-grid">
+
+                <article class="recommendation-card">
+                    <div class="card-number">01</div>
+
+                    <div class="card-icon purple">✦</div>
+
+                    <div class="card-content">
+                        <span class="category">PRODUCTIVITY</span>
+                        <h3>Smart Workspace</h3>
+                        <p>
+                            Organize your tasks, notes and projects
+                            using an intelligent workspace.
+                        </p>
+
+                        <div class="match">
+                            <span>AI Match</span>
+                            <strong>96%</strong>
+                        </div>
+
+                        <div class="progress">
+                            <div style="width: 96%"></div>
+                        </div>
+
+                        <button class="view-btn">
+                            Explore Recommendation →
+                        </button>
+                    </div>
+                </article>
+
+                <article class="recommendation-card">
+                    <div class="card-number">02</div>
+
+                    <div class="card-icon blue">◈</div>
+
+                    <div class="card-content">
+                        <span class="category">LEARNING</span>
+                        <h3>AI Learning Hub</h3>
+                        <p>
+                            Discover personalized learning paths
+                            based on your interests.
+                        </p>
+
+                        <div class="match">
+                            <span>AI Match</span>
+                            <strong>91%</strong>
+                        </div>
+
+                        <div class="progress">
+                            <div style="width: 91%"></div>
+                        </div>
+
+                        <button class="view-btn">
+                            Explore Recommendation →
+                        </button>
+                    </div>
+                </article>
+
+                <article class="recommendation-card">
+                    <div class="card-number">03</div>
+
+                    <div class="card-icon cyan">◇</div>
+
+                    <div class="card-content">
+                        <span class="category">DEVELOPMENT</span>
+                        <h3>Developer Toolkit</h3>
+                        <p>
+                            A curated collection of tools designed
+                            for modern developers.
+                        </p>
+
+                        <div class="match">
+                            <span>AI Match</span>
+                            <strong>88%</strong>
+                        </div>
+
+                        <div class="progress">
+                            <div style="width: 88%"></div>
+                        </div>
+
+                        <button class="view-btn">
+                            Explore Recommendation →
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
