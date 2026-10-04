@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>AI Assistant | AI Interfaces</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <a href="../../index.html" class="logo">
+        ✦ AI Interfaces
+    </a>
+
+    <a href="../../index.html" class="home-btn">
+        ← Home
+    </a>
+
+</header>
+
+
+<main class="assistant-page">
+
+    <section class="assistant-hero">
+
+        <div class="assistant-orb">
+            ✦
+        </div>
+
+        <span class="status">
+            ● AI ASSISTANT ONLINE
+        </span>
+
+        <h1>
+            How can I
+            <span>help you?</span>
+        </h1>
+
+        <p>
+            Your intelligent workspace for ideas,
+            tasks, questions and productivity.
+        </p>
+
+
+        <!-- COMMAND INPUT -->
+
+        <div class="command-box">
+
+            <div class="command-icon">
+                ✦
+            </div>
+
+            <input
+                id="commandInput"
+                type="text"
+                placeholder="Ask your assistant anything..."
+            >
+
+            <button id="sendButton">
+                ↑
+            </button>
+
+        </div>
+
+
+        <!-- QUICK ACTIONS -->
+
+        <div class="quick-actions">
+
+            <button data-command="Write something for me">
+                <span>✍️</span>
+                Write
+            </button>
+
+            <button data-command="Give me some ideas">
+                <span>💡</span>
+                Brainstorm
+            </button>
+
+            <button data-command="Explain something to me">
+                <span>📚</span>
+                Explain
+            </button>
+
+            <button data-command="Help me plan a project">
+                <span>📅</span>
+                Plan
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- WORKSPACE -->
+
+    <section class="workspace">
+
+        <div class="workspace-header">
+
+            <div>
+                <span>WORKSPACE</span>
+
+                <h2>
+                    Your AI Tools
+                </h2>
+            </div>
+
+        </div>
+
+
+        <div class="tools-grid">
+
+            <article class="tool-card">
+
+                <div class="tool-icon">
+                    ✍️
+                </div>
+
+                <h3>
+                    Writing Assistant
+                </h3>
+
+                <p>
+                    Write emails, articles, captions,
+                    reports and more.
+                </p>
+
+                <button
+                    class="tool-btn"
+                    data-command="Help me write something"
+                >
+                    Start Writing →
+                </button>
+
+            </article>
+
+
+            <article class="tool-card">
+
+                <div class="tool-icon">
+                    💡
+                </div>
+
+                <h3>
+                    Idea Generator
+                </h3>
+
+                <p>
+                    Generate creative ideas for your
+                    next project or assignment.
+                </p>
+
+                <button
+                    class="tool-btn"
+                    data-command="Give me creative ideas"
+                >
+                    Generate Ideas →
+                </button>
+
+            </article>
+
+
+            <article class="tool-card">
+
+                <div class="tool-icon">
+                    📋
+                </div>
+
+                <h3>
+                    Task Planner
+                </h3>
+
+                <p>
+                    Organize your tasks and create
+                    productive workflows.
+                </p>
+
+                <button
+                    class="tool-btn"
+                    data-command="Help me create a task plan"
+                >
+                    Create Plan →
+                </button>
+
+            </article>
+
+
+            <article class="tool-card">
+
+                <div class="tool-icon">
+                    🧠
+                </div>
+
+                <h3>
+                    Knowledge Assistant
+                </h3>
+
+                <p>
+                    Understand complex topics with
+                    simple AI explanations.
+                </p>
+
+                <button
+                    class="tool-btn"
+                    data-command="Explain a difficult topic"
+                >
+                    Ask AI →
+                </button>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- RESPONSE PANEL -->
+
+    <section class="response-section" id="responseSection">
+
+        <div class="response-card">
+
+            <div class="response-header">
+
+                <div class="response-ai">
+                    ✦
+                </div>
+
+                <div>
+                    <strong>AI Assistant</strong>
+                    <small>Ready to help</small>
+                </div>
+
+            </div>
+
+            <div id="responseText">
+                Your AI response will appear here.
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
