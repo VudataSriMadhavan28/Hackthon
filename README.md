@@ -118,11 +118,10 @@ Member 1 is responsible for their assigned AI interface implementations.
 
 ### Interfaces
 
-- AI Interface 1
-- AI Interface 2
-- AI Interface 3
-- AI Interface 4
-- AI Interface 5
+- AI Command Bar
+- AI Insight
+- AI AI prompt interface
+
 
 ---
 
@@ -132,94 +131,18 @@ Member 2 is responsible for their assigned AI interface implementations.
 
 ### Interfaces
 
-- AI Interface 1
-- AI Interface 2
-- AI Interface 3
-- AI Interface 4
-- AI Interface 5
+- AI Content Generator
+- AI Copilot
+- AI Document Summariser
+
 
 ---
 
 # Member 3 — V. Karthikeya
 
-Member 3 is responsible for **AI Prompt Interface and Suggestions**.
-
-The contribution contains the following 10 interfaces:
-
-### 1. Prompt Home
-
-A main AI prompt workspace containing a large input area for entering and submitting prompts.
-
-### 2. Prompt Suggestions and Categories
-
-An interface containing prompt suggestion chips and categories that help users discover useful prompts.
-
-### 3. Prompt Templates Gallery
-
-A gallery containing reusable AI prompt templates for different tasks and use cases.
-
-### 4. Prompt Builder
-
-A structured prompt creation interface containing fields such as:
-
-- Role
-- Tone
-- Format
-- Context
-- Instructions
-
-### 5. AI Response Card
-
-An interface displaying AI-generated responses with actions such as:
-
-- Copy
-- Regenerate
-- Rate
-- Review
-
-### 6. Response Comparison
-
-A side-by-side interface that allows users to compare two AI-generated outputs.
-
-### 7. Prompt History and Favorites
-
-An interface for managing previously used prompts with:
-
-- Prompt history
-- Favorites
-- Search
-- Categories
-- Management actions
-
-### 8. AI Content Generator
-
-An AI content generation interface for creating:
-
-- Blog posts
-- Emails
-- Captions
-- Social media content
-- Other AI-generated content
-
-### 9. AI Summary and Insight Cards
-
-An interface displaying:
-
-- AI summaries
-- Key points
-- Insights
-- Statistics
-- Information cards
-
-### 10. Settings and Usage Stats
-
-An interface containing:
-
-- AI preferences
-- Account settings
-- Usage statistics
-- Usage information
-- Application preferences
+- AI Assistant
+- AI Chat
+- AI Search
 
 ---
 
@@ -229,11 +152,9 @@ Member 4 is responsible for their assigned AI interface implementations.
 
 ### Interfaces
 
-- AI Interface 1
-- AI Interface 2
-- AI Interface 3
-- AI Interface 4
-- AI Interface 5
+- ask-your-data
+- ai-recommendation
+- text-to-speech
 
 ---
 
@@ -253,7 +174,7 @@ The interfaces are designed to be responsive and compatible with modern web brow
 
 # Project Structure
 
-```text
+
 Hackthon/
 │
 └── AI-Interfaces/
