@@ -1,0 +1,87 @@
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+font-family:Arial,sans-serif;
+background:#060711;
+color:white;
+min-height:100vh
+}
+
+header{
+height:70px;
+display:flex;
+align-items:center;
+gap:30px;
+padding:0 6%;
+border-bottom:1px solid #24243b
+}
+
+header a{color:#a78bfa;text-decoration:none}
+
+main{max-width:900px;margin:auto;padding:60px 20px}
+
+.prompt-app{
+padding:35px;
+border:1px solid #292942;
+border-radius:22px;
+background:#101020
+}
+
+.title{text-align:center;margin-bottom:30px}
+
+.title div{font-size:45px}
+
+.title h1{margin:12px}
+
+.title p{color:#85859b}
+
+label{
+display:block;
+margin:20px 0 8px;
+color:#ccc
+}
+
+textarea{
+width:100%;
+height:140px;
+padding:15px;
+resize:vertical;
+border:1px solid #30304b;
+border-radius:12px;
+background:#090916;
+color:white;
+outline:0
+}
+
+.bottom{
+display:flex;
+gap:10px;
+margin-top:15px
+}
+
+select,button{
+padding:13px;
+border-radius:10px;
+border:0
+}
+
+select{
+flex:1;
+background:#18182b;
+color:white
+}
+
+button{
+background:#7c3aed;
+color:white;
+cursor:pointer
+}
+
+#output{
+margin-top:25px;
+padding:20px;
+background:#17172a;
+border-radius:12px;
+color:#bbb;
+line-height:1.7
+}

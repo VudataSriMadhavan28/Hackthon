@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Command Bar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<a href="../../index.html">← AI Interfaces</a>
+<h2>AI Command Bar</h2>
+</header>
+
+<main>
+<div class="command">
+<div class="command-title">
+<span>⌘</span>
+<h1>Command Center</h1>
+</div>
+
+<div class="search">
+<input id="command" placeholder="Type a command...">
+<button onclick="executeCommand()">Run</button>
+</div>
+
+<div class="commands">
+<button onclick="setCommand('Create a summary')">Create Summary</button>
+<button onclick="setCommand('Generate ideas')">Generate Ideas</button>
+<button onclick="setCommand('Analyze data')">Analyze Data</button>
+<button onclick="setCommand('Write an email')">Write Email</button>
+</div>
+
+<div id="result"></div>
+</div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Prompt Interface</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<a href="../../index.html">← AI Interfaces</a>
+<h2>AI Prompt Interface</h2>
+</header>
+
+<main>
+<section class="prompt-app">
+<div class="title">
+<div>⚡</div>
+<h1>Prompt Studio</h1>
+<p>Build and test powerful AI prompts.</p>
+</div>
+
+<label>System Instructions</label>
+<textarea id="system" placeholder="Describe the AI role..."></textarea>
+
+<label>Your Prompt</label>
+<textarea id="prompt" placeholder="Write your prompt..."></textarea>
+
+<div class="bottom">
+<select id="model">
+<option>AI Model</option>
+<option>Creative Model</option>
+<option>Reasoning Model</option>
+</select>
+
+<button onclick="runPrompt()">Run Prompt</button>
+</div>
+
+<div id="output"></div>
+</section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
