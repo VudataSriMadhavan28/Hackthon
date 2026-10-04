@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Chat | AI Interfaces</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="../../index.html" class="logo">
+        ✦ AI Interfaces
+    </a>
+
+    <a href="../../index.html" class="back-btn">
+        ← Home
+    </a>
+
+</header>
+
+
+<main class="chat-page">
+
+    <!-- LEFT SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="sidebar-title">
+            <span>AI</span> Chat
+        </div>
+
+        <button class="new-chat" id="newChat">
+            + New Chat
+        </button>
+
+        <div class="chat-history">
+
+            <p class="history-title">
+                Recent Chats
+            </p>
+
+            <button class="history-item active">
+                AI Interface Design
+            </button>
+
+            <button class="history-item">
+                Project Ideas
+            </button>
+
+            <button class="history-item">
+                Explain Machine Learning
+            </button>
+
+            <button class="history-item">
+                Website Design
+            </button>
+
+        </div>
+
+        <div class="sidebar-bottom">
+
+            <div class="profile">
+                <div class="avatar">U</div>
+
+                <div>
+                    <strong>User</strong>
+                    <small>Free Plan</small>
+                </div>
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <!-- CHAT AREA -->
+
+    <section class="chat-container">
+
+        <div class="chat-header">
+
+            <div class="ai-info">
+
+                <div class="ai-avatar">
+                    ✦
+                </div>
+
+                <div>
+                    <h2>AI Assistant</h2>
+                    <span>
+                        <i></i>
+                        Online
+                    </span>
+                </div>
+
+            </div>
+
+            <button class="icon-btn" id="clearChat">
+                ⋯
+            </button>
+
+        </div>
+
+
+        <!-- MESSAGES -->
+
+        <div class="messages" id="messages">
+
+            <div class="message ai-message">
+
+                <div class="message-avatar">
+                    ✦
+                </div>
+
+                <div class="message-content">
+
+                    <span class="message-name">
+                        AI Assistant
+                    </span>
+
+                    <div class="bubble">
+                        Hello! 👋 I'm your AI assistant.
+                        How can I help you today?
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="message user-message">
+
+                <div class="message-content">
+
+                    <span class="message-name">
+                        You
+                    </span>
+
+                    <div class="bubble">
+                        Can you help me design a modern AI website?
+                    </div>
+
+                </div>
+
+                <div class="message-avatar user-avatar">
+                    U
+                </div>
+
+            </div>
+
+
+            <div class="message ai-message">
+
+                <div class="message-avatar">
+                    ✦
+                </div>
+
+                <div class="message-content">
+
+                    <span class="message-name">
+                        AI Assistant
+                    </span>
+
+                    <div class="bubble">
+                        Absolutely! We can create a premium
+                        interface using glassmorphism, gradients,
+                        smooth animations and responsive layouts.
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- TYPING INDICATOR -->
+
+        <div class="typing" id="typing">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            AI is thinking...
+
+        </div>
+
+
+        <!-- SUGGESTIONS -->
+
+        <div class="suggestions">
+
+            <button class="suggestion">
+                💡 Give me an idea
+            </button>
+
+            <button class="suggestion">
+                ✨ Write something
+            </button>
+
+            <button class="suggestion">
+                📚 Explain a topic
+            </button>
+
+        </div>
+
+
+        <!-- INPUT -->
+
+        <form class="chat-input" id="chatForm">
+
+            <textarea
+                id="messageInput"
+                placeholder="Message AI Assistant..."
+                rows="1"
+            ></textarea>
+
+            <button
+                type="submit"
+                class="send-btn"
+                aria-label="Send message"
+            >
+                ↑
+            </button>
+
+        </form>
+
+        <p class="disclaimer">
+            AI can make mistakes. Check important information.
+        </p>
+
+    </section>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
